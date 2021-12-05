@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page import = "web.Controller" %>
+<%@ page import="java.util.*" %>
+
+<html>
+<head><title>CharityLooker</title></head>
+<body bgcolor="white">
+<font size=4>
+
+  Search by Name<br>
+  Please enter Business Number of the Charity<p>
+
+  <form method=POST action="searchBnum.do">
+  Console: <input type=text name=Bnum>
+  <input type=submit value="Submit">
+  </form>
+  
+</font>
+</body>
+</html>
